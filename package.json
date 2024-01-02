@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "cleanAnd": "cd android && ./gradlew clean",
+    "cleanNpm": "rm -rf node_modules && npm i --legacy-peer-deps"
   },
   "dependencies": {
     "@abtguard/guard": "0.9.44",
